@@ -1,4 +1,4 @@
-package javacore.introducaoclasses.dominio;
+package javacore.intoducaometodos.dominio;
 
 public class Calculadora {
     
