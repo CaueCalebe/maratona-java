@@ -4,18 +4,19 @@ import javacore.introducaoclasses.dominio.Estudante;
 
 public class EstudanteTest02 {
     public static void main(String[] args) {
-        Estudante estudante = new Estudante();
-        Estudante estudante2 = new Estudante();
+        Estudante estudante01 = new Estudante();
+        Estudante estudante02 = new Estudante();
         
-        estudante.nome = "Sanji";
-        System.out.println(estudante.nome);
-        System.out.println(estudante.idade);
-        System.out.println(estudante.sexo);
+        estudante01.nome = "Midoriya";
+        estudante01.idade = 15;
+        estudante01.sexo = 'M';
         
-        System.out.println("------------------------------");
+        estudante02.nome = "Sakura";
+        estudante02.idade = 16;
+        estudante02.sexo = 'F';
         
-        System.out.println(estudante2.nome);
-        System.out.println(estudante2.idade);
-        System.out.println(estudante2.sexo);
+        estudante01.imprime();
+        System.out.println("#########################");
+        estudante02.imprime();
     }
 }
